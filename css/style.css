@@ -1,0 +1,216 @@
+
+/* ==== ==== All Common CSS Start ==== ==== */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.body {
+    overflow: hidden;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* ==== Special ==== */
+
+.item_head h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #088bed;
+    display: inline-block;
+    position: relative;
+}
+
+.dot_lf {
+    position: absolute;
+    top: 0;
+    left: -33px;
+}
+
+.dot_rt {
+    position: absolute;
+    top: 0;
+    right: -33px;
+}
+
+.item_head h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #091d3e;
+    padding-top: 33px;
+}
+
+/* ==== ==== All Common CSS End ==== ==== */
+
+/* ==== ==== FAQ part Starts Here  ==== ==== */
+
+#faq {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.faq_lf {
+    background: #091d3e;
+    margin-right: 300px;
+    height: 100%;
+    position: relative;
+}
+
+.faq_lf_block {
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    height: 410px;
+    width: 400px;
+    background: #088bed;
+}
+
+.faq_lf_photo {
+    position: absolute;
+    top: 70px;
+    left: 160px;
+    height: 410px;
+    width: 400px;
+    background: rgb(241, 249, 255);
+    padding: 0 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.faq_lf_photo h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #091d3e;
+    padding-top: 40px;
+}
+
+.faq_rt {
+    margin-left: 30px;
+}
+
+.faq_rt .item_head h4 {
+    margin-left: 33px;
+}
+
+.faq_rt .item_head h3 {
+    font-size: 58px;
+    line-height: 72px;
+}
+
+.faq_main {
+    margin-top: 60px;
+}
+
+.faq_item {
+    width: 90%;
+    background: #f7f9fb;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.faq_item h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #091d3e;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.faq_item h3.spc {
+    padding-left: 28px;
+    padding-right: 25px;
+}
+
+.faq_btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+.faq_btn button {
+    border: 1px solid #091d3e;
+}
+
+.faq_btn i {
+    font-size: 20px;
+    color: #091d3e;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.faq_btn .sqr {
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 42px;
+    padding-left: 2px;
+}
+
+.faq_btn i:hover {
+    color: #fff;
+    background: #091d3e;
+    cursor: pointer;
+}
+
+.faq_item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #091d3e;
+    line-height: 27px;
+    padding: 0 28px;
+    padding-bottom: 21px;
+    display: none;
+}
+
+.faq_btn .item_hide {
+    display: none;
+}
+
+.faq_btn i.clicked {
+    color: #fff;
+    background: #091d3e;
+}
+
+.add_border {
+    border: 1px solid #091d3e;
+    -webkit-box-shadow: 0px 0px 18px 3px rgba(9,29,62,0.5);
+    -moz-box-shadow: 0px 0px 18px 3px rgba(9,29,62,0.5);
+    box-shadow: 0px 0px 18px 3px rgba(9, 29, 62, 0.5);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+/* ==== ==== FAQ part Ends Here  ==== ==== */

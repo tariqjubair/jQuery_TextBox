@@ -1,0 +1,305 @@
+
+/* ==== ==== 1. Extra-Small Devices ==== ==== */
+/* ==== ==== (X-sm) Screen ==== ==== */
+
+@media(max-width: 575.98px){
+    
+/* === === X-sm Common Start === ==== */
+/* === === X-sm FAQ Start === ==== */
+
+#faq {
+    padding-top: 65px;
+    padding-bottom: 60px;
+}
+
+.faq_lf {
+    margin-right: 0;
+    height: auto;
+    position: unset;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.faq_lf_block {
+    display: none;
+}
+
+.faq_lf_photo {
+    position: unset;
+    height: auto;
+    width: auto;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: 10px solid #088bed;
+}
+
+.faq_rt {
+    margin-left: 0;
+}
+
+.faq_rt .item_head h3 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.faq_lf_photo h3 {
+    font-size: 26px;
+    padding-top: 32px;
+}
+
+.item_head {
+    text-align: center;
+}
+
+.faq_rt .item_head h4 {
+    margin-left: 0;
+}
+
+.faq_main {
+    margin-top: 20px;
+}
+
+.faq_item {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.faq_item h3.spc {
+    padding-left: 28px;
+    padding-right: 25px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.faq_item h3 {
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.faq_item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #091d3e;
+    line-height: 21px;
+    padding: 0 15px;
+    padding-bottom: 16px;
+    display: none;
+}
+
+/* ==== X-sm END ==== */
+    
+}
+
+/* ==== ==== 2. Small Devices ==== ==== */
+/* ==== ==== (sm) Screen ==== ==== */
+
+@media(min-width: 576px) and (max-width: 767.98px){
+    
+/* === === SM Common Start === ==== */
+/* === === SM FAQ Start === ==== */
+
+#faq {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.faq_lf {
+    margin-right: 0;
+    height: auto;
+    position: unset;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.faq_lf_block {
+    display: none;
+}
+
+.faq_lf_photo {
+    position: unset;
+    height: auto;
+    width: auto;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    border-top: 15px solid #088bed;
+}
+
+.faq_rt {
+    margin-left: 0;
+}
+
+.faq_rt .item_head h3 {
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.faq_lf_photo h3 {
+    font-size: 40px;
+    padding-top: 45px;
+}
+
+.item_head {
+    text-align: center;
+}
+
+.faq_rt .item_head h4 {
+    margin-left: 0;
+}
+
+.faq_main {
+    margin-top: 35px;
+}
+
+.faq_item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* ==== SM END ==== */
+    
+}
+
+/* ==== ==== 3. Medium Devices ==== ==== */
+/* ==== ==== (md) Screen ==== ==== */
+
+@media(min-width: 768px) and (max-width: 991.98px){
+
+/* === === MD Common Start === ==== *
+/* === === MD FAQ Start === ==== */
+
+.faq_lf {
+    margin-right: 130px;
+}
+
+.faq_lf_block {
+    top: 35px;
+    left: 45px;
+    height: 300px;
+    width: 280px;
+}
+
+.faq_lf_photo {
+    top: 55px;
+    left: 65px;
+    height: 300px;
+    width: 280px;
+    padding: 0 15px;
+    padding-top: 40px;
+}
+
+.faq_lf_photo h3 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+.faq_rt .item_head h3 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.faq_main {
+    margin-top: 20px;
+}
+
+.faq_item {
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.faq_item h3.spc {
+    padding-left: 28px;
+    padding-right: 25px;
+    padding-bottom: 0;
+    padding-top: 15px;
+    width: 100%;
+}
+
+.faq_item h3 {
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    padding-left: 20px;
+    padding-right: 70px;
+}
+
+.faq_item p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #091d3e;
+    line-height: 21px;
+    padding: 0 15px;
+    padding-bottom: 16px;
+    display: none;
+}
+
+/* ==== MD END ==== */
+    
+}
+
+/* ==== ==== 4. Large Devices ==== ==== */
+/* ==== ==== (lg) Screen ==== ==== */
+
+@media(min-width: 992px) and (max-width: 1199.98px){
+    
+/* === === LG Common Start === ==== */
+/* === === LG Header Start === ==== */
+
+/* === === LG FAQ Start === ==== */
+
+.faq_lf {
+    margin-right: 220px;
+}
+
+.faq_lf_block {
+    left: 60px;
+    top: 25px;
+    height: 380px;
+    width: 350px;
+}
+
+.faq_lf_photo {
+    left: 80px;
+    top: 45px;
+    height: 380px;
+    width: 350px;
+}
+
+.faq_rt .item_head h3 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.faq_rt {
+    margin-left: 15px;
+}
+
+.faq_item {
+    width: 97%;
+}
+
+.faq_item h3 {
+    font-size: 17px;
+}
+
+.faq_item h3.spc {
+    padding-left: 22px;
+    padding-right: 10px;
+}
+    
+/* ==== LG END ==== */
+    
+}
